@@ -3,6 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+
+# 아마도 페이지 정리 용도?
+gem 'will_paginate-bootstrap'
+
+gem 'carrierwave'
+gem 'rmagick'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -15,6 +21,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+#devise gem 관리자용
+
+gem 'devise'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
